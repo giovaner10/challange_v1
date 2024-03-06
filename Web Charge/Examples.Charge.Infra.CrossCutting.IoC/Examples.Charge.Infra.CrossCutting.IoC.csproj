@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyVersion>1.2024.0209.1</AssemblyVersion>
+    <FileVersion>1.2024.0209.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Examples.Charge.Application\Examples.Charge.Application.csproj" />
+    <ProjectReference Include="..\Examples.Charge.Infra.Data\Examples.Charge.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
